@@ -2,5 +2,6 @@
   "item.sandwichmod.iron_knife": "Iron Knife",
   "item.sandwichmod.gold_knife": "Gold Knife",
   "item.sandwichmod.diamond_knife": "Diamond Knife",
-  "item.sandwichmod.netherite_knife": "Netherite Knife"
+  "item.sandwichmod.netherite_knife": "Netherite Knife",
+  "itemGroup.sandwichmod.sandwichmodItemGroup": "Sandwich Mod"
 }
