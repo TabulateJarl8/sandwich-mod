@@ -1,2 +1,4 @@
-net/tabulate/sandwich/mod/SandwichMod.java
- net.tabulate.sandwich.mod.SandwichMod
+net/tabulate/sandwichmod/registry/ModItems.java
+ net.tabulate.sandwichmod.registry.ModItems
+net/tabulate/sandwichmod/SandwichMod.java
+ net.tabulate.sandwichmod.SandwichMod

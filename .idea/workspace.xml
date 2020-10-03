@@ -23,12 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f379bdb-e5d5-4279-8a1c-a03c5dfc76ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tabulate/sandwich/mod/ExampleMod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/tabulate/sandwich/mod/mixin/ExampleMixin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/modid/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sandwichmod/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/tabulate/sandwich/mod/SandwichMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/tabulate/sandwichmod/SandwichMod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/modid.mixins.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iNXIZL4LdzcZffT6BrlywpA5gD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,28 +61,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+  <component name="RunManager" selected="Application.Minecraft Client" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,6 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601748958293</updated>
       <workItem from="1601748963747" duration="2083000" />
+      <workItem from="1601751367470" duration="919000" />
+      <workItem from="1601752424439" duration="1645000" />
     </task>
     <servers />
   </component>
@@ -106,12 +99,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3249" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1601751042017">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="3249" y="273" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601751042017" />
+    <state x="2668" y="298" key="FileChooserDialogImpl" timestamp="1601752454725">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2668" y="298" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601752454725" />
     <state width="1354" height="261" key="GridCell.Tab.0.bottom" timestamp="1601749900154">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -128,5 +126,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1354" height="261" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601749900154" />
+    <state x="2544" y="247" key="run.anything.popup" timestamp="1601751638940">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2544" y="247" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1601751638940" />
   </component>
 </project>

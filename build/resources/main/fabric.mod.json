@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.tabulate.sandwich.mod.SandwichMod"
+      "net.tabulate.sandwichmod.SandwichMod"
     ]
   },
   "mixins": [
