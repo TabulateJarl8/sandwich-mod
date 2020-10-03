@@ -1,4 +1,2 @@
-net/tabulate/sandwich/mod/ExampleMod.java
- net.tabulate.sandwich.mod.ExampleMod
-net/tabulate/sandwich/mod/mixin/ExampleMixin.java
- net.tabulate.sandwich.mod.mixin.ExampleMixin
+net/tabulate/sandwich/mod/SandwichMod.java
+ net.tabulate.sandwich.mod.SandwichMod
