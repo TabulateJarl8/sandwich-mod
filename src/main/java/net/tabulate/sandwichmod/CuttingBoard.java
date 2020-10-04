@@ -11,10 +11,10 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class CrimsonCuttingBoard extends HorizontalFacingBlock {
+public class CuttingBoard extends HorizontalFacingBlock {
 
-    public CrimsonCuttingBoard(){
-        super(FabricBlockSettings.copy(Blocks.CRIMSON_PLANKS));
+    public CuttingBoard() {
+        super(FabricBlockSettings.copy(Blocks.OAK_PLANKS));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.WEST));
     }
 
@@ -34,6 +34,7 @@ public class CrimsonCuttingBoard extends HorizontalFacingBlock {
                 return VoxelShapes.cuboid(0.0625f, 0f, 0.1875f, 0.9375f, 0.09375f, 0.8125f);
         }
     }
+
     public BlockState getPlacementState(ItemPlacementContext ctx){
         return (BlockState)this.getDefaultState().with(FACING, ctx.getPlayerFacing());
     }

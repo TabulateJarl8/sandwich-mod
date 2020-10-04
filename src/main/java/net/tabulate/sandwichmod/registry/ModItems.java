@@ -2,8 +2,8 @@ package net.tabulate.sandwichmod.registry;
 
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import net.tabulate.sandwichmod.SandwichMod;
 import net.minecraft.item.Item;
+import net.tabulate.sandwichmod.SandwichMod;
 
 public class ModItems {
 
