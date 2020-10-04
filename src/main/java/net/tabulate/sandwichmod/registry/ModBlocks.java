@@ -16,6 +16,7 @@ public class ModBlocks {
     public static final CuttingBoard JUNGLE_CUTTING_BOARD = new CuttingBoard();
     public static final CuttingBoard SPRUCE_CUTTING_BOARD = new CuttingBoard();
     public static final CuttingBoard WARPED_CUTTING_BOARD = new CuttingBoard();
+    public static final CuttingBoard CUTTING_BOARD = new CuttingBoard();
 
     public static void registerBlocks(){
         Registry.register(Registry.BLOCK, new Identifier(SandwichMod.MOD_ID, "oak_cutting_board"), OAK_CUTTING_BOARD);
