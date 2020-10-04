@@ -29,9 +29,9 @@ public class CuttingBoard extends HorizontalFacingBlock {
         switch (dir){
             case NORTH:
             case SOUTH:
-                return VoxelShapes.cuboid(0.0625f, 0f, 0.1875f, 0.9375f, 0.09375f, 0.8125f);
-            default:
                 return VoxelShapes.cuboid(0.1875f, 0f, 0.0625f, 0.8125f, 0.09375f, 0.9375f);
+            default:
+                return VoxelShapes.cuboid(0.0625f, 0f, 0.1875f, 0.9375f, 0.09375f, 0.8125f);
         }
     }
     public BlockState getPlacementState(ItemPlacementContext ctx){
