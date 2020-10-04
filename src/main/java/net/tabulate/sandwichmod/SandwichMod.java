@@ -6,6 +6,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
+import net.tabulate.sandwichmod.registry.ModBlocks;
 import net.tabulate.sandwichmod.registry.ModItems;
 
 import java.util.Arrays;
@@ -17,13 +18,13 @@ public class SandwichMod implements ModInitializer {
 
     //Item Group
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.create(
-            new Identifier(MOD_ID, "sandwichmodItemGroup"))
+            new Identifier(MOD_ID,"sandwichmoditemgroup"))
             .icon(() -> new ItemStack(ModItems.IRON_KNIFE))
             .appendItems(stacks -> {
                 for (Item item : Arrays.asList(ModItems.IRON_KNIFE, ModItems.GOLD_KNIFE, ModItems.DIAMOND_KNIFE, ModItems.NETHERITE_KNIFE)) {
                     stacks.add(new ItemStack(item));
                 }
-
+                stacks.add(new ItemStack(ModBlocks.CUTTING_BOARD));
             })
             .build();
 
@@ -31,5 +32,6 @@ public class SandwichMod implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerItems();
+        ModBlocks.registerBlocks();
     }
 }

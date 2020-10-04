@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=east": { "model": "sandwichmod:block/cutting_board", "y": 90 },
+    "facing=west": { "model": "sandwichmod:block/cutting_board", "y": 90 },
+    "facing=north": { "model": "sandwichmod:block/cutting_board" },
+    "facing=south": { "model": "sandwichmod:block/cutting_board" }
+  }
+}

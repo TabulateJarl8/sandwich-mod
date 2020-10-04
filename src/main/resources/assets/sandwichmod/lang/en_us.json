@@ -3,5 +3,6 @@
   "item.sandwichmod.gold_knife": "Gold Knife",
   "item.sandwichmod.diamond_knife": "Diamond Knife",
   "item.sandwichmod.netherite_knife": "Netherite Knife",
-  "itemGroup.sandwichmod.sandwichmodItemGroup": "Sandwich Mod"
+  "itemGroup.sandwichmod.sandwichmoditemgroup": "Sandwich Mod",
+  "block.sandwichmod.cutting_board": "Cutting Board"
 }
