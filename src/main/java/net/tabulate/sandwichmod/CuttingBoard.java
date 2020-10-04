@@ -1,8 +1,10 @@
 package net.tabulate.sandwichmod;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.*;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
@@ -14,7 +16,7 @@ import net.minecraft.world.BlockView;
 public class CuttingBoard extends HorizontalFacingBlock {
 
     public CuttingBoard() {
-        super(FabricBlockSettings.copy(Blocks.OAK_PLANKS));
+        super(FabricBlockSettings.of(Material.WOOD).breakByHand(true).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.WOOD).strength(2, 3.0f).allowsSpawning(null));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.WEST));
     }
 
