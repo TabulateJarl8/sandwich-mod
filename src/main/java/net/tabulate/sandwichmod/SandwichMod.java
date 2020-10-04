@@ -24,7 +24,14 @@ public class SandwichMod implements ModInitializer {
                 for (Item item : Arrays.asList(ModItems.IRON_KNIFE, ModItems.GOLD_KNIFE, ModItems.DIAMOND_KNIFE, ModItems.NETHERITE_KNIFE)) {
                     stacks.add(new ItemStack(item));
                 }
-                stacks.add(new ItemStack(ModBlocks.CUTTING_BOARD));
+                stacks.add(new ItemStack(ModBlocks.OAK_CUTTING_BOARD));
+                stacks.add(new ItemStack(ModBlocks.ACACIA_CUTTING_BOARD));
+                stacks.add(new ItemStack(ModBlocks.BIRCH_CUTTING_BOARD));
+                stacks.add(new ItemStack(ModBlocks.CRIMSON_CUTTING_BOARD));
+                stacks.add(new ItemStack(ModBlocks.DARK_OAK_CUTTING_BOARD));
+                stacks.add(new ItemStack(ModBlocks.JUNGLE_CUTTING_BOARD));
+                stacks.add(new ItemStack(ModBlocks.SPRUCE_CUTTING_BOARD));
+                stacks.add(new ItemStack(ModBlocks.WARPED_CUTTING_BOARD));
             })
             .build();
 

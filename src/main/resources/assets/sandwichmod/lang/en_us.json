@@ -4,5 +4,12 @@
   "item.sandwichmod.diamond_knife": "Diamond Knife",
   "item.sandwichmod.netherite_knife": "Netherite Knife",
   "itemGroup.sandwichmod.sandwichmoditemgroup": "Sandwich Mod",
-  "block.sandwichmod.cutting_board": "Cutting Board"
+  "block.sandwichmod.oak_cutting_board": "Oak Cutting Board",
+  "block.sandwichmod.acacia_cutting_board": "Acacia Cutting Board",
+  "block.sandwichmod.crimson_cutting_board": "Crimson Cutting Board",
+  "block.sandwichmod.dark_oak_cutting_board": "Dark Oak Cutting Board",
+  "block.sandwichmod.jungle_cutting_board": "Jungle Cutting Board",
+  "block.sandwichmod.spruce_cutting_board": "Spruce Cutting Board",
+  "block.sandwichmod.warped_cutting_board": "Warped Cutting Board",
+  "block.sandwichmod.birch_cutting_board": "Birch Cutting Board"
 }

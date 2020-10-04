@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sandwichmod:cutting_board"
+          "name": "sandwichmod:oak_cutting_board"
         }
       ],
       "conditions": [
