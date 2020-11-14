@@ -19,7 +19,7 @@ public class SandwichMod implements ModInitializer {
     public static final String MOD_ID = "sandwichmod";
 
     //Cutting Board Entity
-//    public static BlockEntityType<CuttingBoardEntity> CUTTING_BOARD_ENTITY;
+    public static BlockEntityType<CuttingBoardEntity> CUTTING_BOARD_ENTITY;
 
     //Item Group
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.create(
@@ -43,7 +43,7 @@ public class SandwichMod implements ModInitializer {
     //Register Items
     @Override
     public void onInitialize() {
-//        CUTTING_BOARD_ENTITY = Registry.register(Registry.BLOCK_ENTITY_TYPE, "sandwichmod:cutting_board_entity", BlockEntityType.Builder.create(CuttingBoardEntity::new, ModBlocks.CUTTING_BOARD).build(null));
+        CUTTING_BOARD_ENTITY = Registry.register(Registry.BLOCK_ENTITY_TYPE, "sandwichmod:cutting_board_entity", BlockEntityType.Builder.create(CuttingBoardEntity::new, ModBlocks.CUTTING_BOARD).build(null));
         ModItems.registerItems();
         ModBlocks.registerBlocks();
     }
