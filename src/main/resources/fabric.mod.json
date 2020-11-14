@@ -20,6 +20,11 @@
   "entrypoints": {
     "main": [
       "net.tabulate.sandwichmod.SandwichMod"
+    ],
+    "client": [
+      {
+        "value": "net.tabulate.sandwichmod.SandwichModClient"
+      }
     ]
   },
   "mixins": [

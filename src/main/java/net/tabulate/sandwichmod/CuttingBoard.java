@@ -21,6 +21,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
+import net.tabulate.sandwichmod.entities.CuttingBoardEntity;
 
 public class CuttingBoard extends HorizontalFacingBlock implements BlockEntityProvider  {
 
