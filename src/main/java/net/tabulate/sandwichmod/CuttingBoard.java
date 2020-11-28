@@ -66,7 +66,6 @@ public class CuttingBoard extends HorizontalFacingBlock implements BlockEntityPr
         if (world.isClient) return ActionResult.SUCCESS;
         Inventory blockEntity = (Inventory) world.getBlockEntity(blockPos);
 
-
         if (!player.getStackInHand(hand).isEmpty()) {
             // Check what is the first open slot and put an item from the player's hand there
             if (blockEntity.getStack(0).isEmpty()) {
@@ -87,6 +86,7 @@ public class CuttingBoard extends HorizontalFacingBlock implements BlockEntityPr
                 blockEntity.removeStack(0);
             }
         }
+        blockEntity.markDirty();
         return ActionResult.SUCCESS;
     }
 

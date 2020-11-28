@@ -48,7 +48,6 @@ public class CuttingBoardEntity extends BlockEntity implements ImplementedInvent
 
     @Override
     public void markDirty(){
-        System.out.println("yayyyyyyyyyyyy");
         super.markDirty();
         if(!this.world.isClient){
             for(Object obj : PlayerStream.watching(this).toArray()){

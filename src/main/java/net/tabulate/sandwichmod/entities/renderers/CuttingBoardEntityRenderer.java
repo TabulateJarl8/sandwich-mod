@@ -40,7 +40,7 @@ public class CuttingBoardEntityRenderer extends BlockEntityRenderer<CuttingBoard
                 } else {
                     renderItemLayingDown(matrices, o);
                 }
-                MinecraftClient.getInstance().getItemRenderer().renderItem(stack, ModelTransformation.Mode.GROUND, false, matrices, vertexConsumers, lightAbove, OverlayTexture.DEFAULT_UV, bakedModel);
+                MinecraftClient.getInstance().getItemRenderer().renderItem(stack, ModelTransformation.Mode.FIXED, false, matrices, vertexConsumers, lightAbove, OverlayTexture.DEFAULT_UV, bakedModel);
                 matrices.pop();
             }
         } catch (Exception e) {
